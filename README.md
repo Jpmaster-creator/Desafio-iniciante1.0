@@ -1,0 +1,2 @@
+# Desafio iniciante
+ DESAFIO DA FACULDADE CARTAS SUPER TRUNFO
