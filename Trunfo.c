@@ -15,10 +15,10 @@ int main() {
     scanf("%c", &estado1);
 
     printf("Por favor, insira a letra do estado seguida de um numero de 01 a 04 (exemplo: A01, B03): ");
-    scanf("%s", &codigocarta1);
+    scanf("%s", codigocarta1);
 
     printf("Por favor, digite o nome da cidade escolhida, sem espaços: ");
-    scanf("%s", &nomecidade1);
+    scanf("%s", nomecidade1);
 
     printf("Defina o numero de habitantes da cidade: ");
     scanf("%d", &populacao1);
@@ -38,10 +38,10 @@ int main() {
     scanf(" %c", &estado2);                                                             // Foi necessario colocar um espaço atrás da "%" por causa de uma anamolia da linguagem c que adiciona \n //
 
     printf("Por favor, insira a letra do estado seguida de um numero de 01 a 04 (exemplo: A01, B03): ");
-    scanf("%s", &codigocarta2);
+    scanf("%s", codigocarta2);
 
     printf("Por favor, digite o nome da cidade escolhida, sem espaços: ");
-    scanf("%s", &nomecidade2);
+    scanf("%s", nomecidade2);
 
     printf("Defina o numero de habitantes da cidade: ");
     scanf("%d", &populacao2);
