@@ -3,7 +3,7 @@
 
 int main() {
     char estado1, estado2;
-    char codigocarta1 [3], codigocarta2 [3];
+    char codigocarta1 [4], codigocarta2 [4];
     char nomecidade1 [15], nomecidade2 [15];
     int populacao1, populacao2;
     float area1, area2;
@@ -29,7 +29,7 @@ int main() {
     printf("Escolha o PIB, referente a cidade: ");
     scanf("%f", &pib1);
 
-    printf("Por ultimo defina uma quantidade de pontos turisticos presentes na cidade: ");
+    printf("Por ultimo, defina uma quantidade de pontos turisticos presentes na cidade: ");
     scanf("%d", &turistico1);
 
     printf("Agora vamos criar a segunda carta!\n");
@@ -64,8 +64,8 @@ int main() {
     printf("Codigo da Carta: %s\n", codigocarta1);
     printf("Cidade: %s\n", nomecidade1);
     printf("Populacao: %d\n", populacao1);
-    printf("Area: %.2f\n", area1);
-    printf("PIB: %.2fbilhões de reais\n", pib1);
+    printf("Area: %.2f Km²\n", area1);
+    printf("PIB: %.2f bilhões de reais\n", pib1);
     printf("Numero de pontos turisticos: %d\n", turistico1);
 
     printf("Carta2\n");
@@ -73,8 +73,8 @@ int main() {
     printf("Codigo da Carta: %s\n", codigocarta2);
     printf("Cidade: %s\n", nomecidade2);
     printf("Populacao: %d\n", populacao2);
-    printf("Area: %fKm²\n", area2);
-    printf("PIB: %2fbilhões de reais\n", pib2);
+    printf("Area: %.2f Km²\n", area2);
+    printf("PIB: %.2f bilhões de reais\n", pib2);
     printf("Numero de pontos turisticos: %d\n", turistico2);
 
 
