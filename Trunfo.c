@@ -32,16 +32,6 @@ int main() {
     printf("Por ultimo defina uma quantidade de pontos turisticos presentes na cidade: ");
     scanf("%d", &turistico1);
 
-    printf("Sua carta esta pronta!\n");
-    printf("Carta1\n");
-    printf("Estado: %c\n", estado1);
-    printf("Codigo da Carta: %s\n", codigocarta1);
-    printf("Cidade: %s\n", nomecidade1);
-    printf("Populacao: %d\n", populacao1);
-    printf("Area: %.2f\n", area1);
-    printf("PIB: %.2f\n", pib1);
-    printf("Pontos turisticos: %d\n", turistico1);
-
     printf("Agora vamos criar a segunda carta!\n");
 
     printf("Por favor, digite a letra inicial do estado de sua escolha: ");
@@ -65,17 +55,28 @@ int main() {
     printf("Por ultimo defina uma quantidade de pontos turisticos presentes na cidade: ");
     scanf("%d", &turistico2);
 
-    printf("Sua carta esta pronta!\n");
+    printf("Suas cartas estão prontas!\n");
+
+    //Resultado das cartas inseridas pelo usuario//
+
+    printf("Carta1\n");                                                     
+    printf("Estado: %c\n", estado1);
+    printf("Codigo da Carta: %s\n", codigocarta1);
+    printf("Cidade: %s\n", nomecidade1);
+    printf("Populacao: %d\n", populacao1);
+    printf("Area: %.2f\n", area1);
+    printf("PIB: %.2fbilhões de reais\n", pib1);
+    printf("Numero de pontos turisticos: %d\n", turistico1);
+
     printf("Carta2\n");
     printf("Estado: %c\n", estado2);
     printf("Codigo da Carta: %s\n", codigocarta2);
     printf("Cidade: %s\n", nomecidade2);
     printf("Populacao: %d\n", populacao2);
-    printf("Area: %.2f\n", area2);
-    printf("PIB: %.2f\n", pib2);
-    printf("Pontos turisticos: %d\n", turistico2);
+    printf("Area: %fKm²\n", area2);
+    printf("PIB: %2fbilhões de reais\n", pib2);
+    printf("Numero de pontos turisticos: %d\n", turistico2);
 
 
-    
     return 0;
 }
