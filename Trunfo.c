@@ -10,6 +10,8 @@ int main() {
     float pib1, pib2;
     int turistico1, turistico2;
 
+    // Entrada de dados pelo usuario via teclado //
+
 
     printf("Por favor, digite a letra inicial do estado de sua escolha: ");
     scanf("%c", &estado1);
@@ -52,7 +54,7 @@ int main() {
     printf("Escolha o PIB, referente a cidade: ");
     scanf("%f", &pib2);
 
-    printf("Por ultimo defina uma quantidade de pontos turisticos presentes na cidade: ");
+    printf("Por ultimo, defina uma quantidade de pontos turisticos presentes na cidade: ");
     scanf("%d", &turistico2);
 
     printf("Suas cartas estão prontas!\n");
